@@ -14,7 +14,7 @@ token_url = 'https://api-gw.it.umich.edu/token'
 
 basic_auth = HTTPBasicAuth(client_id, client_secret)
 
-client = BackendApplicationClient(client_id=client_id, client_secret=client_secret)
+client = BackendApplicationClient(client_id=client_id)
 
 oauth = OAuth2Session(client=client)
 
