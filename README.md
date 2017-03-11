@@ -1,3 +1,4 @@
+
 Test Umich API OAuth using Python
 ##################################
 
@@ -19,12 +20,9 @@ To Run with docker (recomended)
 
 Update `client_id` and `secret` from the UMICH API directory
 
-`
-docker build -t api-python umich-api-python
-
-#run onetime and exit
-docker run api-python
-
-#start with bash shell and run manually
-docker run -i -t api-python /bin/bash
-`
+	docker build -t api-python umich-api-python
+	
+	#run onetime and exit
+	docker run api-python
+	
+	#start with bash shell and run manually
